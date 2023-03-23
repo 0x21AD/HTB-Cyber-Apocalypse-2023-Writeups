@@ -12,3 +12,5 @@ You will be given two different ports , which you normally nc to it it will give
 
 
 2. all you need to do for this challenge is to call function udpateSensors and give pass the value 10 to it then will set the update to true. 
+
+Note: interacting with the contract will be through a web3 , a module in python , you will find it in solve.py
