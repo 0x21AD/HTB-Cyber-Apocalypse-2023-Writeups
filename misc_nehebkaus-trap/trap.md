@@ -15,7 +15,7 @@ this maps to exec(print("yuri")) which will execute print("yuri")
 
 6. just had to do some simple modifications manually , added chr(10) and chr(9) after with open which maps to new line and tap
 
--> with open ("flag.txt" , "r"):
+-> with open ("flag.txt" , "r"):\n\t
     print(f.read())
 python you have to put a correct indentation in order to work so the chr(10) maps to new line and chr(9) maps to \t 
 
