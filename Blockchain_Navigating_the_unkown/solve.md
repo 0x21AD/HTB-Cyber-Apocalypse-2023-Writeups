@@ -8,5 +8,7 @@ You will be given two different ports , which you normally nc to it it will give
 
 2. in order to call a function you need to define an abi , think of it as the structure of the contract source code , in order to get this abi , you can use: https://remix.ethereum.org/ , go to contracts create a new contract put the source code click compile and you can get the abi that describes the callable functions in the contract.
 
+![alt text](https://github.com/SecYuri/HTB-Cyber-Apocalypse-2023-Writeups/blob/main/Blockchain_Navigating_the_unkown/1.png)
+
 
 2. all you need to do for this challenge is to call function udpateSensors and give pass the value 10 to it then will set the update to true. 
