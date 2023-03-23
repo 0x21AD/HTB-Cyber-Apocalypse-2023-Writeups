@@ -27,4 +27,4 @@ Calling it in the script.
 4. finally we combine those and execute the script and the get the flag , conditions are satisfied , flag is printed out. YAAAY
 
 
-![alt text](https://github.com/SecYuri/HTB-Cyber-Apocalypse-2023-Writeups/blob/main/Blockchain_Shooting-101/4.PNG)
+![alt text](https://github.com/SecYuri/HTB-Cyber-Apocalypse-2023-Writeups/blob/main/Blockchain_Shooting-101/4.png)
