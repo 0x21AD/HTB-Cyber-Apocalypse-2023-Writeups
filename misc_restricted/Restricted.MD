@@ -8,6 +8,8 @@ It was my first time dealing with restricted bash.
 
 4. the bash_profile , sets the PATH env variable to $HOME/.bin , so we can't simply use any binaries in the /bin , because we can't type slashes in rbash
 
+![alt text](https://github.com/SecYuri/HTB-Cyber-Apocalypse-2023-Writeups/blob/main/misc_restricted/1.PNG)
+
 5. since it was my first time using rbash, I had to google it and found a great resource : https://www.exploit-db.com/docs/english/44592-linux-restricted-shell-bypass-guide.pdf
 
 6. after some reading from the resource we found an interesting option in ssh, which is -t , -t forces a a psuedo-terminal , you can read the man page
@@ -20,5 +22,5 @@ ssh restricted@104.248.169.117 -p 32700 -t "bash"
 
 9. simply you can ssh restricted@104.248.169.117 -p 32700 -t "bash --noprofile" to ignore the bash_profile provided by the challenge
 
-
+![alt text](https://github.com/SecYuri/HTB-Cyber-Apocalypse-2023-Writeups/blob/main/misc_restricted/2.PNG)
 it was an interesting one and first time to deal with rbash.
