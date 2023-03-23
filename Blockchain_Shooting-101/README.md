@@ -10,11 +10,21 @@ okay let's set them to true one by one :
 
 1. FirstShot , Inorder to set first shot to true you will need to call the function fallback , after some googling , Fallback is a standard function is solidity which gets called whenever the contract receives a wrong function call, but in order to call a function from the web3py script you have to put in the abi , so lets put a function name that doesn't exist in the contract source code in our abi and call it.
 
+![alt text](https://github.com/SecYuri/HTB-Cyber-Apocalypse-2023-Writeups/blob/main/Blockchain_Shooting-101/1.PNG)
+
+Calling it in the script.
+
+![alt text](https://github.com/SecYuri/HTB-Cyber-Apocalypse-2023-Writeups/blob/main/Blockchain_Shooting-101/2.PNG)
 
 
 2.  secondShot , this gets triggered whenever the contract recv a a transaction , atleast that's how i get it.
 
 
+![alt text](https://github.com/SecYuri/HTB-Cyber-Apocalypse-2023-Writeups/blob/main/Blockchain_Shooting-101/3.PNG)
+
 3. finally thats a public function , you can see it in the contract source code , public means , you can just call it.
 
 4. finally we combine those and execute the script and the get the flag , conditions are satisfied , flag is printed out. YAAAY
+
+
+![alt text](https://github.com/SecYuri/HTB-Cyber-Apocalypse-2023-Writeups/blob/main/Blockchain_Shooting-101/4.PNG)
